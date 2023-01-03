@@ -1,0 +1,54 @@
+@import "./reset.css";
+@import url("https://fonts.googleapis.com/css?family=Montserrat|PT+Serif");
+
+/*********** mobile css************/
+.container {
+  width: 90%;
+  max-width: 1132px;
+  margin: 0 auto;
+}
+.cfixed:after,
+.container:after {
+  display: block;
+  content: "";
+  clear: both;
+}
+.blind {
+  position: absolute;
+  width: 0;
+  height: 0;
+  line-height: 0;
+  text-indent: -9999px;
+  overflow: hidden;
+}
+.sec-tit {
+  font-size: 42px;
+  color: #3f51b5;
+  font-weight: normal;
+}
+.divider {
+  width: 90%;
+  max-width: 1132px;
+  margin: 0 auto;
+  margin-top: 77px;
+  background: #eee;
+}
+.m-divider {
+  width: 20px;
+  margin: 0 auto;
+  margin-top: 77px;
+  background: #3f51b5;
+}
+/*********** tablet css************/
+@media all and (min-width: 768px) {
+  .divider {
+    margin-top: 124px;
+  }
+  .m-divider {
+    margin-top: 124px;
+  }
+}
+
+/*********** pc css************/
+@media all and (min-width: 1132px) {
+}
