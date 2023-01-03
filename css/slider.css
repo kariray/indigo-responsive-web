@@ -1,0 +1,15 @@
+/*********** mobile css************/
+.slider img {
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+}
+
+/*********** tablet css************/
+@media all and (min-width: 768px) {
+}
+
+/*********** pc css************/
+@media all and (min-width: 1132px) {
+}
