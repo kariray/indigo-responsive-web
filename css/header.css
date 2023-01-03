@@ -1,4 +1,5 @@
 /*********** mobile css************/
+
 .header {
   position: relative;
   padding: 18px 5%;
@@ -18,6 +19,9 @@
   left: 0;
   width: 100%;
   background: #3f51b5;
+}
+.header .show {
+  display: block;
 }
 .header .gnb li {
   border-bottom: 1px solid #303f9f;
